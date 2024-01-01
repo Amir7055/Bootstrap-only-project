@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: red;
+    font-family: 'Lato', sans-serif;
+/*font-family: 'Merriweather', serif;
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Rubik', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Montserrat', sans-serif;
+
+}
+     /* header start */
+
+header{
+    background:url(../image/header-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+}
+
+.navbar-icon{
+    color: white;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+.nav-link{
+    color: white !important;
+    margin:10px;
+    border-radius: 5px;
+    transition: .5s !important;
+    
+}
+.nav-link:hover{
+    
+    background:rgb(34, 105, 238);
+    color: white !important;
+    transform: scale(1.1);
+    
+    
+}
+.banner-contents h1{
+    font-size:50px;
+    background-color: rgba(33, 245, 51, 0.4);
+    padding: 10px 20px;
+    font-family: 'Roboto Serif', serif;
+    border-radius: 5px;
+
+
+}
+.btn i{
+    margin-right:20px;
+
+}
+.btn-gape{
+    margin: right 20px;
+}
+
+/* features start */
+#features{
+    padding:5% 10%;
+    background:#e8ded2;
+}
+.features-col{
+    border:1px solid #ec89d4;
+    border-radius: 5px;
+    padding:15px;
+    margin:20px 0px;
+    transition: .4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+.icon-style{
+    background: #bb0aac;
+    color:white;
+    padding:15px;
+    margin:5px 0px;
+}
+ /* about me */
+
+ .section-title{
+     font-weight:bolder;
+     margin-bottom: 0px;
+
+ }
+ .hr-style{
+     border: 5px dotted white ;
+     border-bottom: none;
+     width:50px;
+     margin: auto;
+ }
+ #about-me{
+     padding:4% 10%;
+     background: #e8ded2;
+ }
+ #about-me p{
+     margin-bottom: 0;
+     font-weight: light;
+     font-size: 0.9rem;
+ }
+ #about-me a{
+     font-size: 0.9rem;
+     font-weight: lighter;
+     color:black;
+     text-decoration: underline;
+ }
+.achievments-des span{
+    font-weight: 700 !important;
+}
+.star i{
+    width: 20px;
+    color: rgb(233, 136, 17);
+}
+/* tutorial */
+#tutorial{
+    padding:4% 10%;
+    background: #a3d2ca;
+}
+.card{
+    border:1px solid rgb(252, 75, 75) !important;
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* feedback */
+#feedback{
+    padding:5%;
+    background:#051d52
+}
+
+.carousel-item{
+    text-align: center;
+    padding:7% 15%;
+    font-family: italic;
+    font-size: 1.2rem;
+}
+.feedback-image{
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+}
+#contact{
+    background: #5eaaa8;
+    padding:2% 10%;
+
+}
+
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+/* footer  */
+footer{
+    padding: 1% 10%;
+    background:black;
+    color: white;
+}
+footer a{
+    color: white;
+    margin: 0px 10px;
+}
+footer a:hover{
+    color: #1958df;
+}
+@media (max-width:768px) {
+    .nav-link{
+        background: rgb(0,0,0,.7);
+    }
+    .banner-contents h1{
+        font-size: 2.5rem;
+    }
+    
+}
